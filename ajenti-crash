@@ -1,0 +1,238 @@
+Ajenti bug report
+--------------------
+
+
+Info | Value
+----- | -----
+Ajenti | 1.2.22.13
+Platform | centos / centos / Linux 2.6.32-042stab108.5 x86_64
+Architecture | x86_64 x86_64
+Python | 2.7.5
+Installation | 16232796
+Debug | True
+Catcher report | <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng:app="app">
+    <head>
+        <title>Ajenti Webserver Control Panel</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="google-site-verification" content="x4PklNIAhqnDXEZBGXgbdxTTGGbRvEdHATuGeEaA7xg" />
+        <link rel="icon" type="image/png" href="/static/home/favicon.png" />
+
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans:700,400' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Roboto:100,400' rel='stylesheet' type='text/css'>
+
+        <script src="//cdn.jsdelivr.net/jquery/2.1.1/jquery.min.js"></script>
+        <script src="//cdn.jsdelivr.net/angularjs/1.2.17/angular.min.js"></script>
+        <script src="//cdn.jsdelivr.net/g/bootstrap@3.0.3,ekko-lightbox,jquery.slick,angularui"></script>
+        <link href="//cdn.jsdelivr.net/g/bootstrap@3.0.3(css/bootstrap.min.css)" rel="stylesheet">
+
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.slick/1.3.2/slick.css">
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/fontawesome/4.0.3/css/font-awesome.css">
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/angularui/0.4.0/angular-ui.min.css">
+
+        <link rel="stylesheet" href="/static/CACHE/css/b5c22129cde7.css" type="text/css" />
+        <script type="text/javascript" src="/static/CACHE/js/f756ca6b5462.js"></script>
+
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-3278102-8', 'ajenti.org');
+          ga('send', 'pageview');
+        </script>
+    </head>
+
+    <body data-spy="scroll" data-target="#navigation">
+        <div class="top-area">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="/">ajenti</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="http://support.ajenti.org/" target="_blank">
+                                <i class="fa fa-book"></i> Docs
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Eugeny/ajenti/" target="_blank">
+                                <i class="fa fa-github"></i> GitHub
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Eugeny/ajenti/issues/new" target="_blank">
+                                <i class="fa fa-bug"></i> Report a bug
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://docs1.ajenti.org/en/latest/" target="_blank">
+                                <i class="fa fa-cog"></i> Developer docs
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/licensing">
+                                <i class="fa fa-usd"></i> Licensing
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            
+            
+        </div>
+
+        <div id="page">
+            
+    404, sorry
+
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="link pull-right">
+                    <a href="https://mixpanel.com/f/partner"><img src="//cdn.mxpnl.com/site_media/images/partner/badge_light.png" alt="Mobile Analytics" /></a>
+                </div>
+                <div class="link pull-right">
+                    CDN by&nbsp;&nbsp;<a href="http://jsdelivr.com/">jsDelivr</a> &amp; <a href="http://maxcdn.com">MaxCDN</a>
+                </div>
+                <div class="link">
+                    © Ajenti Project
+                </div>
+                <div class="link">
+                    <a href="mailto:e@ajenti.org"><i class="fa fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script type='text/javascript'>
+            // UserEcho --------------------
+            var _ues = {
+            host:'ajenti.userecho.com',
+            forum:'8996',
+            lang:'en',
+            tab_corner_radius:8,
+            tab_font_size:22,
+            tab_image_hash:'RmVlZGJhY2s%3D',
+            tab_alignment:'left',
+            tab_text_color:'#FFFFFF',
+            tab_bg_color:'#9E9E9E',
+            tab_hover_color:'#595959'
+            };
+
+            (function() {
+                var _ue = document.createElement('script'); _ue.type = 'text/javascript'; _ue.async = true;
+                _ue.src = ('https:' == document.location.protocol ? 'https://s3.amazonaws.com/' : 'http://') + 'cdn.userecho.com/js/widget-1.4.gz.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(_ue, s);
+              })();
+
+        </script>
+
+        <script type="text/javascript">
+            // Analytics --------------------------
+          (function() {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+          })();
+        </script>
+
+        <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=408484792592752";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+    </body>
+</html>
+
+
+Loaded plugins | ajenti_org, dashboard, hosts, logs, main, network, packages, resources, terminal
+
+Library | Version
+------- | -------
+gevent | 1.0
+greenlet | 0.4.2
+reconfigure | 0.1.62
+requests | 1.1.0
+psutil | 1.2.1
+
+
+    Traceback (most recent call last):
+      File "/usr/bin/ajenti-panel", line 133, in <module>
+        core.run()
+      File "/usr/lib/python2.7/site-packages/ajenti/core.py", line 88, in run
+        ajenti.plugins.manager.load_all()
+      File "/usr/lib/python2.7/site-packages/ajenti/plugins/__init__.py", line 266, in load_all
+        self.load_recursive(item[0])
+      File "/usr/lib/python2.7/site-packages/ajenti/plugins/__init__.py", line 277, in load_recursive
+        return self.load(name)
+      File "/usr/lib/python2.7/site-packages/ajenti/plugins/__init__.py", line 324, in load
+        dependency.check()
+      File "/usr/lib/python2.7/site-packages/ajenti/plugins/__init__.py", line 67, in check
+        if not self.satisfied():
+      File "/usr/lib/python2.7/site-packages/ajenti/plugins/__init__.py", line 58, in satisfied
+        self._was_satisfied = self.is_satisfied()
+      File "/usr/lib/python2.7/site-packages/ajenti/plugins/__init__.py", line 131, in is_satisfied
+        return subprocess.call(['which', self.binary_name]) == 0
+      File "/usr/lib64/python2.7/site-packages/gevent/subprocess.py", line 115, in call
+        return Popen(*popenargs, **kwargs).wait()
+      File "/usr/lib/python2.7/site-packages/ajenti/compat.py", line 26, in Popen
+        *args, **kwargs)
+      File "/usr/lib64/python2.7/site-packages/gevent/subprocess.py", line 238, in __init__
+        errread, errwrite)
+      File "/usr/lib64/python2.7/site-packages/gevent/subprocess.py", line 755, in _execute_child
+        raise child_exception
+    OSError: [Errno 2] No such file or directory
+
+Log content:
+
+    2015-07-21 03:32:58,536 INFO     ajenti-panel.<module>(): Using config file /etc/ajenti/config.json
+    2015-07-21 03:32:58,590 INFO     ajenti-panel.<module>(): Ajenti starting in foreground
+    2015-07-21 03:32:58,662 INFO     registry.register_crypt_handler(): registered crypt handler 'sha512_crypt': <class 'passlib.handlers.sha2_crypt.sha512_crypt'>
+    2015-07-21 03:32:58,707 DEBUG    compat.Popen(): Popen: git describe --tags 2> /dev/null
+    2015-07-21 03:32:58,721 DEBUG    compat.Popen(): Popen: ['lsb_release', '-sd']
+    2015-07-21 03:32:58,726 DEBUG    compat.Popen(): Popen: ['uname', '-mrs']
+    2015-07-21 03:32:58,731 INFO     core.run(): Ajenti 1.2.22.13 running on platform: centos
+    2015-07-21 03:32:58,732 DEBUG    __init__.load(): Loading plugin main
+    2015-07-21 03:32:58,738 DEBUG    __init__.load(): Loading plugin snmpd
+    2015-07-21 03:32:58,739 DEBUG    __init__.load_recursive(): Preloading plugin dependency: services
+    2015-07-21 03:32:58,739 DEBUG    __init__.load(): Loading plugin services
+    2015-07-21 03:32:58,740 DEBUG    __init__.load_recursive(): Preloading plugin dependency: dashboard
+    2015-07-21 03:32:58,741 DEBUG    __init__.load(): Loading plugin dashboard
+    2015-07-21 03:32:58,744 DEBUG    __init__.load(): Loading plugin services
+    2015-07-21 03:32:58,750 INFO     sm_upstart.verify(): Disabling Upstart service manager: org.freedesktop.DBus.Error.ServiceUnknown: The name com.ubuntu.Upstart was not provided by any .service files
+    2015-07-21 03:32:58,755 DEBUG    compat.Popen(): Popen: ['which', 'systemctl']
+    2015-07-21 03:32:58,762 WARNING  __init__.load():  *** [services] Plugin crashed: crashed: [Errno 2] No such file or directory
+    2015-07-21 03:32:58,763 DEBUG    __init__.load(): Loading plugin ntpd
+    2015-07-21 03:32:58,764 WARNING  __init__.load_recursive():  *** Plugin dependency unsatisfied: ntpd -> services
+    2015-07-21 03:32:58,765 DEBUG    __init__.load(): Loading plugin nginx
+    2015-07-21 03:32:58,765 DEBUG    __init__.load_recursive(): Preloading plugin dependency: webserver_common
+    2015-07-21 03:32:58,766 DEBUG    __init__.load(): Loading plugin webserver_common
+    2015-07-21 03:32:58,767 WARNING  __init__.load_recursive():  *** Plugin dependency unsatisfied: webserver_common -> services
+    2015-07-21 03:32:58,768 DEBUG    __init__.load(): Loading plugin logs
+    2015-07-21 03:32:58,769 DEBUG    __init__.load(): Loading plugin fstab
+    2015-07-21 03:32:58,770 DEBUG    __init__.load():  *** [fstab] skipping due to FileDependency (/etc/fstab)
+    2015-07-21 03:32:58,771 DEBUG    __init__.load(): Loading plugin ajenti_org
+    2015-07-21 03:32:58,773 DEBUG    __init__.load(): Loading plugin hosts
+    2015-07-21 03:32:58,774 DEBUG    __init__.load(): Loading plugin packages
+    2015-07-21 03:32:58,775 DEBUG    __init__.load_recursive(): Preloading plugin dependency: terminal
+    2015-07-21 03:32:58,775 DEBUG    __init__.load(): Loading plugin terminal
+    2015-07-21 03:32:58,785 DEBUG    __init__.load(): Loading plugin packages
+    2015-07-21 03:32:58,787 DEBUG    __init__.load(): Loading plugin resources
+    2015-07-21 03:32:58,789 DEBUG    __init__.load(): Loading plugin samba
+    2015-07-21 03:32:58,790 WARNING  __init__.load_recursive():  *** Plugin dependency unsatisfied: samba -> services
+    2015-07-21 03:32:58,791 DEBUG    __init__.load(): Loading plugin network
+    2015-07-21 03:32:58,810 DEBUG    __init__.load(): Loading plugin fail2ban
+    2015-07-21 03:32:58,811 DEBUG    compat.Popen(): Popen: ['which', 'fail2ban-client']
+    2015-07-21 03:32:58,816 ERROR    core.handle_crash(): Fatal crash occured
+            
